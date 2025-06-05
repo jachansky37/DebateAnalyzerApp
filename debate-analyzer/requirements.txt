@@ -4,3 +4,7 @@ networkx
 matplotlib
 pydot
 tqdm
+sentence-transformers
+scikit-learn
+mplcursors
+hdbscan

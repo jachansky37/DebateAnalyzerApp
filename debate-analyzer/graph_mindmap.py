@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import mplcursors
 
 
-def load_units(path="output/debate_units.json"):
+def load_units(path="debate-analyzer/debate_unit_output/debate_units.json"):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -26,14 +26,33 @@ def build_graph(units):
 
     G = nx.DiGraph()
 
+    # Group units by idea_id
+    idea_groups = {}
     for unit in units:
-        summary = summarizer(unit['text'], max_length=10, min_length=3, truncation=True)[0]['summary_text']
-        node_id = unit["id"]
-        info_density = unit.get("information_density", 0.5)
+        idea_id = unit.get("idea_id", "unknown_idea")
+        if idea_id not in idea_groups:
+            idea_groups[idea_id] = []
+        idea_groups[idea_id].append(unit)
+
+    # Create idea nodes summarizing each idea group
+    for idea_id, idea_units in idea_groups.items():
+        combined_text = " ".join([u["text"] for u in idea_units])
+        summary = summarizer(combined_text, max_length=15, min_length=5, truncation=True)[0]['summary_text']
+        info_density = max((u.get("information_density", 0.5) for u in idea_units), default=0.5)
         fontsize = 10 + 15 * info_density
+        G.add_node(idea_id, label=f"Idea {idea_id}: {summary}", color="lightblue", fontsize=fontsize, summary=summary)
+
+        for u in idea_units:
+            G.add_edge(idea_id, u["id"], label="has_unit")
+
+    for unit in units:
+        node_id = unit["id"]
         color = type_colors.get(unit["type"], "gray")
-        label = f"{node_id}: {summary}"
-        G.add_node(node_id, label=label, color=color, fontsize=fontsize, summary=summary)
+        G.add_node(node_id,
+                   label=f"{node_id}: {unit['text'][:30]}...",
+                   color=color,
+                   fontsize=8,
+                   summary=unit['text'])
 
     for unit in units:
         parent_id = unit.get("parent_id")

@@ -131,7 +131,7 @@ def assign_topic_clusters(units: List[DebateUnit]) -> None:
 # Example Usage
 # -----------------------------
 if __name__ == "__main__":
-    raw_text = load_transcript("data/sample_debate_0.txt")
+    raw_text = load_transcript("debate-analyzer/data/sample_debate_0.txt")
     sentences = simple_sentence_split(raw_text)
     print("Split into sentences:")
     for s in sentences:
@@ -186,4 +186,4 @@ if __name__ == "__main__":
 
     link_debate_units(units)
     assign_topic_clusters(units)
-    save_units(units, "debate_unit_output/debate_units.json")
+    save_units(units, "debate-analyzer/debate_unit_output/debate_units.json")

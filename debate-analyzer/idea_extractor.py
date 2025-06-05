@@ -8,7 +8,7 @@ import numpy as np
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
 summarizer = pipeline("summarization", model="google/pegasus-xsum")
 
-def load_units(path="debate_unit_output/debate_units.json"):
+def load_units(path="debate-analyzer/debate_unit_output/debate_units.json"):
     with open(path, "r") as f:
         return json.load(f)
 
@@ -51,7 +51,7 @@ def extract_ideas(units, labels):
         })
     return ideas
 
-def save_ideas(ideas, path="idea_unit_output/output_ideas.json"):
+def save_ideas(ideas, path="debate-analyzer/idea_unit_output/output_ideas.json"):
     with open(path, "w") as f:
         json.dump(ideas, f, indent=2)
 
