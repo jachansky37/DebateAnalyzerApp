@@ -1,0 +1,196 @@
+[
+  {
+    "idea_id": 0,
+    "summary": "What is the science behind climate change?",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "A",
+      "C"
+    ],
+    "unit_ids": [
+      0,
+      3
+    ]
+  },
+  {
+    "idea_id": 1,
+    "summary": "Global temperatures are rising faster than ever before, according to the Intergovernmental Panel on Climate Change (IPCC).",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "A",
+      "B"
+    ],
+    "unit_ids": [
+      1,
+      2
+    ]
+  },
+  {
+    "idea_id": 2,
+    "summary": "A new report by the World Bank and the International Monetary Fund suggests that the world's economy could grow by as much as 8% a year if the world invested in green technology.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "A"
+    ],
+    "unit_ids": [
+      4
+    ]
+  },
+  {
+    "idea_id": 3,
+    "summary": "The Obama administration says it is committed to phasing out coal as a power source in the US by 2030.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "B"
+    ],
+    "unit_ids": [
+      5
+    ]
+  },
+  {
+    "idea_id": 4,
+    "summary": "What do you think is the biggest problem facing our schools?",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "E",
+      "D"
+    ],
+    "unit_ids": [
+      6,
+      13
+    ]
+  },
+  {
+    "idea_id": 5,
+    "summary": "In our series of letters from African journalists, film-maker and columnist Ahmed Rashid looks at some of the most striking images from the continent this year.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "E"
+    ],
+    "unit_ids": [
+      7
+    ]
+  },
+  {
+    "idea_id": 6,
+    "summary": "Thousands of teachers across the UK have walked out of their classrooms in protest over pay and conditions.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "D"
+    ],
+    "unit_ids": [
+      8
+    ]
+  },
+  {
+    "idea_id": 7,
+    "summary": "I\u2019m not sure if you\u2019ve heard, but I\u2019m not a huge fan of the word \u2018sex\u2019.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "F"
+    ],
+    "unit_ids": [
+      9
+    ]
+  },
+  {
+    "idea_id": 8,
+    "summary": "The government has said it will raise public sector salaries by 2%, on top of a 1% rise this year.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "Unknown"
+    ],
+    "unit_ids": [
+      10,
+      12
+    ]
+  },
+  {
+    "idea_id": 9,
+    "summary": "Is it possible to be a successful entrepreneur?",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "D"
+    ],
+    "unit_ids": [
+      11
+    ]
+  },
+  {
+    "idea_id": 10,
+    "summary": "In our series of letters from African journalists, filmmaker and columnist Femi Adetiba looks at some of the most important stories of the past year.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "G"
+    ],
+    "unit_ids": [
+      14
+    ]
+  },
+  {
+    "idea_id": 11,
+    "summary": "In our series of letters from African journalists, filmmaker and columnist Femi Adetiba looks at some of the key issues facing the continent.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "Unknown"
+    ],
+    "unit_ids": [
+      15
+    ]
+  },
+  {
+    "idea_id": 12,
+    "summary": "What do you think are the biggest challenges facing the world today?",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "H"
+    ],
+    "unit_ids": [
+      16
+    ]
+  },
+  {
+    "idea_id": 13,
+    "summary": "What do artificial intelligence and robotics have in common?",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "G"
+    ],
+    "unit_ids": [
+      17
+    ]
+  },
+  {
+    "idea_id": 14,
+    "summary": "In our series of letters from African journalists, filmmaker and columnist Ahmed Rashid looks at some of the key issues surrounding artificial intelligence.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "I"
+    ],
+    "unit_ids": [
+      18
+    ]
+  },
+  {
+    "idea_id": 15,
+    "summary": "Do you think the UK should have a national ethical code of conduct?",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "G"
+    ],
+    "unit_ids": [
+      19
+    ]
+  },
+  {
+    "idea_id": 16,
+    "summary": "Technology is changing the way we live and work.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "H"
+    ],
+    "unit_ids": [
+      20
+    ]
+  }
+]
