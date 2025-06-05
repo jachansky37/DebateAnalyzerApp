@@ -4,8 +4,8 @@
     "summary": "What is the science behind climate change?",
     "info_density": 0.5,
     "speaker_ids": [
-      "C",
-      "A"
+      "A",
+      "C"
     ],
     "unit_ids": [
       0,
@@ -17,8 +17,8 @@
     "summary": "Global temperatures are rising faster than ever before, according to the Intergovernmental Panel on Climate Change (IPCC).",
     "info_density": 0.5,
     "speaker_ids": [
-      "B",
-      "A"
+      "A",
+      "B"
     ],
     "unit_ids": [
       1,
@@ -52,8 +52,8 @@
     "summary": "What do you think is the biggest problem facing our schools?",
     "info_density": 0.5,
     "speaker_ids": [
-      "D",
-      "E"
+      "E",
+      "D"
     ],
     "unit_ids": [
       6,
