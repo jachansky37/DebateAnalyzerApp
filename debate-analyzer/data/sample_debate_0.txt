@@ -1,0 +1,22 @@
+SPEAKER A: I believe climate change is the most pressing issue of our time.
+SPEAKER B: But haven't global temperatures always fluctuated throughout history?
+SPEAKER A: True, but the rate of change now is unprecedented and strongly correlated with CO₂ levels.
+SPEAKER C: What’s the economic impact of taking aggressive climate action?
+SPEAKER A: Studies suggest that green investments generate more jobs than fossil fuel subsidies.
+SPEAKER B: Still, developing countries might struggle to afford the transition.
+
+SPEAKER D: Switching topics, I think our public education system needs major reform.
+SPEAKER E: In what way?
+SPEAKER D: Teachers are underpaid and overworked, which affects student outcomes.
+SPEAKER F: That’s a good point. But wouldn't raising salaries require cutting funding elsewhere?
+SPEAKER D: Not necessarily. We could redirect funding from bloated administrative costs.
+SPEAKER E: Or maybe even reduce standardized testing and focus more on holistic learning.
+
+SPEAKER G: Let's talk about artificial intelligence. Are we prepared for the ethical challenges?
+SPEAKER H: What kind of challenges are you thinking of?
+SPEAKER G: Algorithmic bias, data privacy, and the displacement of workers, for starters.
+SPEAKER I: Should governments regulate AI development directly?
+SPEAKER G: Yes, before private interests move faster than ethical frameworks can keep up.
+SPEAKER H: But overregulation might stifle innovation in a rapidly evolving field.
+
+git clone https://github.com/jachansky37/DebateAnalyzerApp.gitt

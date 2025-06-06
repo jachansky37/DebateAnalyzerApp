@@ -1,0 +1,14 @@
+transformers
+torch
+networkx
+matplotlib
+pydot
+tqdm
+sentence-transformers
+scikit-learn
+mplcursors
+hdbscan
+pyqt5
+pyqtgraph
+numpy
+scikit-learn

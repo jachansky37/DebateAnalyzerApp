@@ -1,0 +1,10 @@
+SPEAKER A: I think we should implement a four-day workweek to improve employee well-being.
+SPEAKER B: But won’t reducing work hours hurt overall productivity and business output?
+SPEAKER A: Actually, trials in several countries show productivity often stays the same or increases.
+SPEAKER B: What about industries that require continuous coverage, like healthcare or customer support?
+SPEAKER A: Those sectors could rotate staff schedules, similar to how shifts are managed now.
+SPEAKER B: Still, wouldn’t some employees abuse the extra day off?
+SPEAKER A: Trust-based models tend to improve morale and accountability — the data supports that.
+SPEAKER B: Maybe, but adapting every industry to that model seems unrealistic.
+SPEAKER A: We don't have to apply it universally — start with knowledge-based jobs and expand gradually.
+SPEAKER B: Alright, that sounds more reasonable as a pilot program.

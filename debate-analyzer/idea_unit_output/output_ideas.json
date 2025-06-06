@@ -1,0 +1,103 @@
+[
+  {
+    "idea_id": 0,
+    "summary": "How do you feel about the new four-day working week?",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "A"
+    ],
+    "unit_ids": [
+      0
+    ]
+  },
+  {
+    "idea_id": 1,
+    "summary": "Reducing the number of hours worked is one way companies are trying to cut costs.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "B",
+      "A"
+    ],
+    "unit_ids": [
+      1,
+      2
+    ]
+  },
+  {
+    "idea_id": 2,
+    "summary": "In our series of letters from African journalists, filmmaker and columnist Farai Sevenzo looks at some of the key issues facing the continent.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "B"
+    ],
+    "unit_ids": [
+      3
+    ]
+  },
+  {
+    "idea_id": 3,
+    "summary": "The government is looking at ways to make it easier to recruit and fire staff in the public and private sectors.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "A"
+    ],
+    "unit_ids": [
+      4
+    ]
+  },
+  {
+    "idea_id": 4,
+    "summary": "It\u2019s not every day you get to celebrate your birthday with your boss.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "B"
+    ],
+    "unit_ids": [
+      5
+    ]
+  },
+  {
+    "idea_id": 5,
+    "summary": "A new study suggests that the best way to improve the quality of your work is to build trust with your colleagues.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "A"
+    ],
+    "unit_ids": [
+      6
+    ]
+  },
+  {
+    "idea_id": 6,
+    "summary": "Is there a future for the electric car?",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "B"
+    ],
+    "unit_ids": [
+      7
+    ]
+  },
+  {
+    "idea_id": 7,
+    "summary": "How do you get the most out of your current job?",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "A"
+    ],
+    "unit_ids": [
+      8
+    ]
+  },
+  {
+    "idea_id": 8,
+    "summary": "The BBC is planning to run a series on the impact of climate change in the UK, with a focus on the impact on people's daily lives.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "B"
+    ],
+    "unit_ids": [
+      9
+    ]
+  }
+]
