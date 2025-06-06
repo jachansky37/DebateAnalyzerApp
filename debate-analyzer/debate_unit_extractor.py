@@ -30,6 +30,7 @@ class DebateUnit:
 
     embedding: Optional[List[float]] = None
     information_density: Optional[float] = None
+    short_text: Optional[str] = None  # 1-7 word intelligent rephrasing
 
 
 # -----------------------------
@@ -87,6 +88,8 @@ def construct_debate_units(sentences: List[str], labels: List[str]) -> List[Deba
     from numpy.linalg import norm
     import numpy as np
     model = SentenceTransformer('all-MiniLM-L6-v2')
+    from transformers import pipeline
+    summarizer = pipeline("text2text-generation", model="humarin/chatgpt_paraphraser_on_T5_base")
 
     units = []
     for idx, (text, label) in enumerate(zip(sentences, labels)):
@@ -101,6 +104,13 @@ def construct_debate_units(sentences: List[str], labels: List[str]) -> List[Deba
             text=cleaned_text,
             type=label
         )
+        try:
+            short_summary = summarizer(cleaned_text, max_new_tokens=15, min_new_tokens=3, do_sample=False)[0]["generated_text"]
+            unit.short_text = short_summary
+        except Exception as e:
+            print(f"Summarization error for '{cleaned_text}': {e}")
+            unit.short_text = None
+
         unit.embedding = model.encode([cleaned_text])[0].tolist()
         unit.information_density = float(np.mean(np.abs(unit.embedding)))  # or use norm(unit.embedding)
         units.append(unit)
@@ -131,7 +141,7 @@ def assign_topic_clusters(units: List[DebateUnit]) -> None:
 # Example Usage
 # -----------------------------
 if __name__ == "__main__":
-    raw_text = load_transcript("debate-analyzer/data/sample_debate_0.txt")
+    raw_text = load_transcript("debate-analyzer/data/sample_debate_1.txt")
     sentences = simple_sentence_split(raw_text)
     print("Split into sentences:")
     for s in sentences:

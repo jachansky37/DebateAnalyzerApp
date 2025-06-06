@@ -1,26 +1,10 @@
 [
   {
-    "id": 0,
-    "speaker": "A",
-    "start_time": null,
-    "end_time": null,
-    "text": "I think we should implement a four-day workweek to improve employee well-being.",
-    "type": "claim",
-    "good_faith": null,
-    "topic": null,
-    "links_to": [],
-    "parent_id": null,
-    "relation_type": null,
-    "thread_root_id": 0,
-    "children_ids": [
-      1,
-      2,
-      3,
-      5,
-      6,
-      7
-    ],
-    "topic_cluster": null,
+    "id": "unit_0",
+    "label": "I think we should implement a four-day workweek to improve employee well-being.",
+    "full_text": "I think we should implement a four-day workweek to improve employee well-being.",
+    "type": "unit",
+    "label_type": "claim",
     "embedding": [
       -0.032728180289268494,
       0.09249132126569748,
@@ -406,25 +390,14 @@
       0.01764078252017498,
       -0.021872790530323982,
       0.019669760018587112
-    ],
-    "information_density": 0.04027320375149811,
-    "short_text": "I believe that a four-day workweek is a valuable addition"
+    ]
   },
   {
-    "id": 1,
-    "speaker": "B",
-    "start_time": null,
-    "end_time": null,
-    "text": "But won\u2019t reducing work hours hurt overall productivity and business output?",
-    "type": "question",
-    "good_faith": null,
-    "topic": null,
-    "links_to": [],
-    "parent_id": 0,
-    "relation_type": "relates_to",
-    "thread_root_id": 0,
-    "children_ids": [],
-    "topic_cluster": null,
+    "id": "unit_1",
+    "label": "But won\u2019t reducing work hours hurt overall productivity and business output?",
+    "full_text": "But won\u2019t reducing work hours hurt overall productivity and business output?",
+    "type": "unit",
+    "label_type": "question",
     "embedding": [
       0.0084603326395154,
       0.09658414870500565,
@@ -810,25 +783,14 @@
       -0.08256039023399353,
       0.06380337476730347,
       -0.013905246742069721
-    ],
-    "information_density": 0.04017996281523373,
-    "short_text": "Might reducing the number of work hours per day have a negative impact"
+    ]
   },
   {
-    "id": 2,
-    "speaker": "A",
-    "start_time": null,
-    "end_time": null,
-    "text": "Actually, trials in several countries show productivity often stays the same or increases.",
-    "type": "evidence",
-    "good_faith": null,
-    "topic": null,
-    "links_to": [],
-    "parent_id": 0,
-    "relation_type": "supports",
-    "thread_root_id": 0,
-    "children_ids": [],
-    "topic_cluster": null,
+    "id": "unit_2",
+    "label": "Actually, trials in several countries show productivity often stays the same or...",
+    "full_text": "Actually, trials in several countries show productivity often stays the same or increases.",
+    "type": "unit",
+    "label_type": "evidence",
     "embedding": [
       0.0763528048992157,
       -0.02423354610800743,
@@ -1214,25 +1176,14 @@
       -0.05841894447803497,
       0.07810848951339722,
       0.008535489439964294
-    ],
-    "information_density": 0.04043258041701569,
-    "short_text": "In many countries, trials demonstrate that productivity can remain stable or increase significantly,"
+    ]
   },
   {
-    "id": 3,
-    "speaker": "B",
-    "start_time": null,
-    "end_time": null,
-    "text": "What about industries that require continuous coverage, like healthcare or customer support?",
-    "type": "question",
-    "good_faith": null,
-    "topic": null,
-    "links_to": [],
-    "parent_id": 0,
-    "relation_type": "relates_to",
-    "thread_root_id": 0,
-    "children_ids": [],
-    "topic_cluster": null,
+    "id": "unit_3",
+    "label": "What about industries that require continuous coverage, like healthcare or customer support?",
+    "full_text": "What about industries that require continuous coverage, like healthcare or customer support?",
+    "type": "unit",
+    "label_type": "question",
     "embedding": [
       -0.028176017105579376,
       -0.01671471819281578,
@@ -1618,25 +1569,14 @@
       -0.10708214342594147,
       0.12399418652057648,
       0.07501388341188431
-    ],
-    "information_density": 0.040530715212191974,
-    "short_text": "In industries where continuous coverage is crucial, such as healthcare or customer support,"
+    ]
   },
   {
-    "id": 4,
-    "speaker": "A",
-    "start_time": null,
-    "end_time": null,
-    "text": "Those sectors could rotate staff schedules, similar to how shifts are managed now.",
-    "type": "uncertain",
-    "good_faith": null,
-    "topic": null,
-    "links_to": [],
-    "parent_id": null,
-    "relation_type": null,
-    "thread_root_id": null,
-    "children_ids": [],
-    "topic_cluster": null,
+    "id": "unit_4",
+    "label": "Those sectors could rotate staff schedules, similar to how shifts are managed...",
+    "full_text": "Those sectors could rotate staff schedules, similar to how shifts are managed now.",
+    "type": "unit",
+    "label_type": "uncertain",
     "embedding": [
       -0.02992980368435383,
       -0.0521564818918705,
@@ -2022,25 +1962,14 @@
       -0.01678502932190895,
       -0.013188166543841362,
       0.054877299815416336
-    ],
-    "information_density": 0.04009353711957977,
-    "short_text": "Sectors may adopt a policy of rotating staff schedules, similar to"
+    ]
   },
   {
-    "id": 5,
-    "speaker": "B",
-    "start_time": null,
-    "end_time": null,
-    "text": "Still, wouldn\u2019t some employees abuse the extra day off?",
-    "type": "question",
-    "good_faith": null,
-    "topic": null,
-    "links_to": [],
-    "parent_id": 0,
-    "relation_type": "relates_to",
-    "thread_root_id": 0,
-    "children_ids": [],
-    "topic_cluster": null,
+    "id": "unit_5",
+    "label": "Still, wouldn\u2019t some employees abuse the extra day off?",
+    "full_text": "Still, wouldn\u2019t some employees abuse the extra day off?",
+    "type": "unit",
+    "label_type": "question",
     "embedding": [
       -0.005753819365054369,
       0.07782447338104248,
@@ -2426,25 +2355,14 @@
       -0.025180600583553314,
       0.008902104571461678,
       0.002933143638074398
-    ],
-    "information_density": 0.04096883085789379,
-    "short_text": "Wouldn\u2019t some employees take advantage of the extra day off?"
+    ]
   },
   {
-    "id": 6,
-    "speaker": "A",
-    "start_time": null,
-    "end_time": null,
-    "text": "Trust-based models tend to improve morale and accountability \u2014 the data supports that.",
-    "type": "evidence",
-    "good_faith": null,
-    "topic": null,
-    "links_to": [],
-    "parent_id": 0,
-    "relation_type": "supports",
-    "thread_root_id": 0,
-    "children_ids": [],
-    "topic_cluster": null,
+    "id": "unit_6",
+    "label": "Trust-based models tend to improve morale and accountability \u2014 the data supports...",
+    "full_text": "Trust-based models tend to improve morale and accountability \u2014 the data supports that.",
+    "type": "unit",
+    "label_type": "evidence",
     "embedding": [
       -0.0169557873159647,
       -0.024753138422966003,
@@ -2830,25 +2748,14 @@
       -0.04297848045825958,
       0.017809247598052025,
       -0.017281996086239815
-    ],
-    "information_density": 0.04078126936965742,
-    "short_text": "Trust-based models, which are based on trust-based models,"
+    ]
   },
   {
-    "id": 7,
-    "speaker": "B",
-    "start_time": null,
-    "end_time": null,
-    "text": "Maybe, but adapting every industry to that model seems unrealistic.",
-    "type": "question",
-    "good_faith": null,
-    "topic": null,
-    "links_to": [],
-    "parent_id": 0,
-    "relation_type": "relates_to",
-    "thread_root_id": 0,
-    "children_ids": [],
-    "topic_cluster": null,
+    "id": "unit_7",
+    "label": "Maybe, but adapting every industry to that model seems unrealistic.",
+    "full_text": "Maybe, but adapting every industry to that model seems unrealistic.",
+    "type": "unit",
+    "label_type": "question",
     "embedding": [
       0.0019065444357693195,
       -0.12120485305786133,
@@ -3234,25 +3141,14 @@
       -0.15343184769153595,
       0.1007603108882904,
       0.021587584167718887
-    ],
-    "information_density": 0.04041499785977478,
-    "short_text": "It's possible, but it's not realistic to expect all industries"
+    ]
   },
   {
-    "id": 8,
-    "speaker": "A",
-    "start_time": null,
-    "end_time": null,
-    "text": "We don't have to apply it universally \u2014 start with knowledge-based jobs and expand gradually.",
-    "type": "concession",
-    "good_faith": null,
-    "topic": null,
-    "links_to": [],
-    "parent_id": null,
-    "relation_type": null,
-    "thread_root_id": null,
-    "children_ids": [],
-    "topic_cluster": null,
+    "id": "unit_8",
+    "label": "We don't have to apply it universally \u2014 start with knowledge-based jobs...",
+    "full_text": "We don't have to apply it universally \u2014 start with knowledge-based jobs and expand gradually.",
+    "type": "unit",
+    "label_type": "concession",
     "embedding": [
       0.04081828147172928,
       -0.057167649269104004,
@@ -3638,25 +3534,14 @@
       -0.01212991215288639,
       0.04389002546668053,
       0.07706639170646667
-    ],
-    "information_density": 0.03926374144363643,
-    "short_text": "We don't need to apply it universally \u2014 start with knowledge"
+    ]
   },
   {
-    "id": 9,
-    "speaker": "B",
-    "start_time": null,
-    "end_time": null,
-    "text": "Alright, that sounds more reasonable as a pilot program.",
-    "type": "concession",
-    "good_faith": null,
-    "topic": null,
-    "links_to": [],
-    "parent_id": null,
-    "relation_type": null,
-    "thread_root_id": null,
-    "children_ids": [],
-    "topic_cluster": null,
+    "id": "unit_9",
+    "label": "Alright, that sounds more reasonable as a pilot program.",
+    "full_text": "Alright, that sounds more reasonable as a pilot program.",
+    "type": "unit",
+    "label_type": "concession",
     "embedding": [
       0.05571042001247406,
       -0.027170345187187195,
@@ -4042,8 +3927,6 @@
       0.01983250491321087,
       -0.06611168384552002,
       -0.032205626368522644
-    ],
-    "information_density": 0.040413573844014235,
-    "short_text": "I think it's more reasonable to consider a pilot program, al"
+    ]
   }
 ]

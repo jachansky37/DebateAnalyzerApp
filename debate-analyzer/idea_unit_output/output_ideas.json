@@ -1,24 +1,22 @@
 [
   {
     "idea_id": 0,
-    "summary": "What is the science behind climate change?",
+    "summary": "How do you feel about the new four-day working week?",
     "info_density": 0.5,
     "speaker_ids": [
-      "A",
-      "C"
+      "A"
     ],
     "unit_ids": [
-      0,
-      3
+      0
     ]
   },
   {
     "idea_id": 1,
-    "summary": "Global temperatures are rising faster than ever before, according to the Intergovernmental Panel on Climate Change (IPCC).",
+    "summary": "Reducing the number of hours worked is one way companies are trying to cut costs.",
     "info_density": 0.5,
     "speaker_ids": [
-      "A",
-      "B"
+      "B",
+      "A"
     ],
     "unit_ids": [
       1,
@@ -27,7 +25,18 @@
   },
   {
     "idea_id": 2,
-    "summary": "A new report by the World Bank and the International Monetary Fund suggests that the world's economy could grow by as much as 8% a year if the world invested in green technology.",
+    "summary": "In our series of letters from African journalists, filmmaker and columnist Farai Sevenzo looks at some of the key issues facing the continent.",
+    "info_density": 0.5,
+    "speaker_ids": [
+      "B"
+    ],
+    "unit_ids": [
+      3
+    ]
+  },
+  {
+    "idea_id": 3,
+    "summary": "The government is looking at ways to make it easier to recruit and fire staff in the public and private sectors.",
     "info_density": 0.5,
     "speaker_ids": [
       "A"
@@ -37,8 +46,8 @@
     ]
   },
   {
-    "idea_id": 3,
-    "summary": "The Obama administration says it is committed to phasing out coal as a power source in the US by 2030.",
+    "idea_id": 4,
+    "summary": "It\u2019s not every day you get to celebrate your birthday with your boss.",
     "info_density": 0.5,
     "speaker_ids": [
       "B"
@@ -48,149 +57,47 @@
     ]
   },
   {
-    "idea_id": 4,
-    "summary": "What do you think is the biggest problem facing our schools?",
+    "idea_id": 5,
+    "summary": "A new study suggests that the best way to improve the quality of your work is to build trust with your colleagues.",
     "info_density": 0.5,
     "speaker_ids": [
-      "E",
-      "D"
+      "A"
     ],
     "unit_ids": [
-      6,
-      13
+      6
     ]
   },
   {
-    "idea_id": 5,
-    "summary": "In our series of letters from African journalists, film-maker and columnist Ahmed Rashid looks at some of the most striking images from the continent this year.",
+    "idea_id": 6,
+    "summary": "Is there a future for the electric car?",
     "info_density": 0.5,
     "speaker_ids": [
-      "E"
+      "B"
     ],
     "unit_ids": [
       7
     ]
   },
   {
-    "idea_id": 6,
-    "summary": "Thousands of teachers across the UK have walked out of their classrooms in protest over pay and conditions.",
+    "idea_id": 7,
+    "summary": "How do you get the most out of your current job?",
     "info_density": 0.5,
     "speaker_ids": [
-      "D"
+      "A"
     ],
     "unit_ids": [
       8
     ]
   },
   {
-    "idea_id": 7,
-    "summary": "I\u2019m not sure if you\u2019ve heard, but I\u2019m not a huge fan of the word \u2018sex\u2019.",
+    "idea_id": 8,
+    "summary": "The BBC is planning to run a series on the impact of climate change in the UK, with a focus on the impact on people's daily lives.",
     "info_density": 0.5,
     "speaker_ids": [
-      "F"
+      "B"
     ],
     "unit_ids": [
       9
-    ]
-  },
-  {
-    "idea_id": 8,
-    "summary": "The government has said it will raise public sector salaries by 2%, on top of a 1% rise this year.",
-    "info_density": 0.5,
-    "speaker_ids": [
-      "Unknown"
-    ],
-    "unit_ids": [
-      10,
-      12
-    ]
-  },
-  {
-    "idea_id": 9,
-    "summary": "Is it possible to be a successful entrepreneur?",
-    "info_density": 0.5,
-    "speaker_ids": [
-      "D"
-    ],
-    "unit_ids": [
-      11
-    ]
-  },
-  {
-    "idea_id": 10,
-    "summary": "In our series of letters from African journalists, filmmaker and columnist Femi Adetiba looks at some of the most important stories of the past year.",
-    "info_density": 0.5,
-    "speaker_ids": [
-      "G"
-    ],
-    "unit_ids": [
-      14
-    ]
-  },
-  {
-    "idea_id": 11,
-    "summary": "In our series of letters from African journalists, filmmaker and columnist Femi Adetiba looks at some of the key issues facing the continent.",
-    "info_density": 0.5,
-    "speaker_ids": [
-      "Unknown"
-    ],
-    "unit_ids": [
-      15
-    ]
-  },
-  {
-    "idea_id": 12,
-    "summary": "What do you think are the biggest challenges facing the world today?",
-    "info_density": 0.5,
-    "speaker_ids": [
-      "H"
-    ],
-    "unit_ids": [
-      16
-    ]
-  },
-  {
-    "idea_id": 13,
-    "summary": "What do artificial intelligence and robotics have in common?",
-    "info_density": 0.5,
-    "speaker_ids": [
-      "G"
-    ],
-    "unit_ids": [
-      17
-    ]
-  },
-  {
-    "idea_id": 14,
-    "summary": "In our series of letters from African journalists, filmmaker and columnist Ahmed Rashid looks at some of the key issues surrounding artificial intelligence.",
-    "info_density": 0.5,
-    "speaker_ids": [
-      "I"
-    ],
-    "unit_ids": [
-      18
-    ]
-  },
-  {
-    "idea_id": 15,
-    "summary": "Do you think the UK should have a national ethical code of conduct?",
-    "info_density": 0.5,
-    "speaker_ids": [
-      "G"
-    ],
-    "unit_ids": [
-      19
-    ]
-  },
-  {
-    "idea_id": 16,
-    "summary": "Technology is changing the way we live and work.",
-    "info_density": 0.5,
-    "speaker_ids": [
-      "H"
-    ],
-    "unit_ids": [
-      20
     ]
   }
 ]

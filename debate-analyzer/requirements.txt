@@ -8,3 +8,8 @@ sentence-transformers
 scikit-learn
 mplcursors
 hdbscan
+pyqt5
+pyqtgraph
+pygraphviz
+numpy
+scikit-learn

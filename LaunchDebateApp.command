@@ -25,7 +25,16 @@ python3 -m venv venv
 source venv/bin/activate
 
 echo "📦 Installing Python dependencies..."
+pip install --upgrade pip
 pip install -r requirements.txt
+
+# Install pygraphviz with system headers
+GRAPHVIZ_PREFIX=$(brew --prefix graphviz)
+pip install --no-cache-dir \
+    --config-settings="--global-option=build_ext" \
+    --config-settings="--global-option=-I${GRAPHVIZ_PREFIX}/include/" \
+    --config-settings="--global-option=-L${GRAPHVIZ_PREFIX}/lib/" \
+    pygraphviz
 
 echo "🚀 Launching app..."
 bash launch.sh

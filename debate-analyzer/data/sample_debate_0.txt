@@ -18,3 +18,5 @@ SPEAKER G: Algorithmic bias, data privacy, and the displacement of workers, for 
 SPEAKER I: Should governments regulate AI development directly?
 SPEAKER G: Yes, before private interests move faster than ethical frameworks can keep up.
 SPEAKER H: But overregulation might stifle innovation in a rapidly evolving field.
+
+git clone https://github.com/jachansky37/DebateAnalyzerApp.gitt
